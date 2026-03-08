@@ -18,6 +18,7 @@ public class costomer {
         String membership = sc.next();
         double price = 10000;
         System.out.println("Name : "+name+"\nE-mail :"+email+"\nPhone number : "+p_Number+"\nAge : "+age+"\nMembership : "+membership);
+        System.out.println("Actual Price Of The Product : "+price);
         if(age>50 && membership.equals("G")){
             price = price-((price*50)/100);
             double cgst= (price*5)/100;
