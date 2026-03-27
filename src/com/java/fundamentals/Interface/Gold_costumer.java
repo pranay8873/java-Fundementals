@@ -2,7 +2,10 @@ package com.java.fundamentals.Interface;
 
 public class Gold_costumer extends Costumer {
     float Discount=30;
-    void  gold_costumer(int id,String Name,byte age,String address,long phoneNumber,String gender,String email,String region) {
-        
+    Gold_costumer(int id,String Name,byte age,String address,long phoneNumber,String gender,String email,String region) {
+        super();
+        System.out.println("you are a gold costumer");
+        System.out.println("since you are a gold costumer you get 30% extra discount");
     }
+
     }

@@ -12,7 +12,7 @@ public class Costumer {
     Costumer(){
         System.out.println("created coustemer class object");
     }
-    void costumer(int id,String Name,byte age,String address,long phoneNumber,String gender,String email,String region){
+    Costumer(int id,String Name,byte age,String address,long phoneNumber,String gender,String email,String region){
         this.id=id;
         this.Name=Name;
         this.age=age;
