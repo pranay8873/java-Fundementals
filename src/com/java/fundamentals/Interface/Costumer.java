@@ -10,7 +10,7 @@ public class Costumer {
     String email;
     String region;
     Costumer(){
-        System.out.println("created coustemer class object");
+        System.out.println("created costumer class object");
     }
     Costumer(int id,String Name,byte age,String address,long phoneNumber,String gender,String email,String region){
         this.id=id;
