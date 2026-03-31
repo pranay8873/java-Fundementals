@@ -13,6 +13,7 @@ public class Main {
         v1.displaydetailsobj(costumer3);
         coustemer1.met1(20);
         coustemer1.met2("pranay");
+        coustemer1.met3(20,"greeshmitha");
 
     }
 }
