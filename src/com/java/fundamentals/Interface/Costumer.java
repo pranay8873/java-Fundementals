@@ -32,4 +32,5 @@ public class Costumer {
         System.out.println("Email : " + email);
         System.out.println("Region : " + region);
     }
+
 }
