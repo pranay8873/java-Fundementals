@@ -12,8 +12,9 @@ public class Main {
         Verification v1=new Verification();
         v1.displaydetailsobj(costumer3);
         coustemer1.met1(20);
-        coustemer1.met2("pranay");
-        coustemer1.met3(20,"greeshmitha");
-
+        coustemer1.met1("pranay");
+        coustemer1.met1(30,"vaishnavi");
+        costumer3.met1(10,"samuel",true);
+        costumer3.met1(20);
     }
 }

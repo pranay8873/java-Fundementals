@@ -35,10 +35,10 @@ public class Costumer {
     void met1(int id){
         System.out.println("method with int input"+" id is "+id);
     }
-    void met2(String name){
+    void met1(String name){
         System.out.println("method with string input"+" String given is "+name);
     }
-    void met3(int id,String name){
+    void met1(int id,String name){
         System.out.println("Method with both int and string input "+"id is : "+id+" string is : "+name);
     }
 

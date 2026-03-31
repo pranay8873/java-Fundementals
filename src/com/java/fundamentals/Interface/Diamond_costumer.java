@@ -11,6 +11,9 @@ public class Diamond_costumer extends Costumer{
         System.out.println("you are a diamond costumer");
         System.out.println("since you are a gold costumer you get 50% extra discount");
     }
+    void met1(int id,String name,boolean isavalable){
+        System.out.println("method declared with 3 arguments from sub class where id= "+id+" name= "+name+" avalability= "+isavalable);
+    }
 
 
 }
