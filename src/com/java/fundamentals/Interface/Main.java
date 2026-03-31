@@ -11,6 +11,7 @@ public class Main {
         System.out.println(S2.getClass().getName());
         Verification v1=new Verification();
         v1.displaydetailsobj(costumer3);
+        coustemer1.met1(20);
         
 
     }
