@@ -1,6 +1,6 @@
 package com.java.fundamentals.Interface;
 
-public class Diamond_costumer extends Costumer{
+public class Diamond_costumer extends Gold_costumer{
     float Discount=50;
     Diamond_costumer(){
 //        super();
@@ -13,6 +13,11 @@ public class Diamond_costumer extends Costumer{
     }
     void met1(int id,String name,boolean isavalable){
         System.out.println("method declared with 3 arguments from sub class where id= "+id+" name= "+name+" avalability= "+isavalable);
+    }
+    @Override
+    void display(){
+        super.display();
+        System.out.println("Display method from diamond class");
     }
 
 

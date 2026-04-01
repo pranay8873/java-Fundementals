@@ -11,5 +11,10 @@ public class Gold_costumer extends Costumer {
         System.out.println("you are a gold costumer");
         System.out.println("since you are a gold costumer you get 30% extra discount");
     }
+    @Override
+    void display(){
+        super.display();
+        System.out.println("display method from gold class");
+    }
 
     }

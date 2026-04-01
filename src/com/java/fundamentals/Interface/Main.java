@@ -16,5 +16,8 @@ public class Main {
         coustemer1.met1(30,"vaishnavi");
         costumer3.met1(10,"samuel",true);
         costumer3.met1(20);
+        coustemer1.display();
+        costumer2.display();
+        costumer3.display();
     }
 }

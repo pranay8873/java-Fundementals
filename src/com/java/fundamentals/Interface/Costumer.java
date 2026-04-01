@@ -41,6 +41,9 @@ public class Costumer {
     void met1(int id,String name){
         System.out.println("Method with both int and string input "+"id is : "+id+" string is : "+name);
     }
+    void display(){
+        System.out.println("display method from base class");
+    }
 
 
 }
