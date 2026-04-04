@@ -12,4 +12,15 @@ public class Payment extends Costumer{
         this.paymentDate = paymentDate;
         this.mode = mode;
     }
+    public abstract boolean pay(double amount);
+
+    public  void otpValidation(int otp){
+        System.out.println("OTP validation done : " + otp);
+    }
+    public  void paymentDetails(){
+        System.out.println("Payment Id: " + id);
+        System.out.println("Customer Name: " + customerName);
+        System.out.println("Payment Date: " + paymentDate);
+        System.out.println("Mode: " + mode);
+    }
 }
