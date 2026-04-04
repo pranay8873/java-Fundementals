@@ -13,7 +13,11 @@ public abstract class Service{
          this.vehicle=vehicle;
          this.model=model;
      }
-    public abstract void details(double amount);
+     public abstract void regular();
+
+     public abstract void general();
+
+
 
 
 
