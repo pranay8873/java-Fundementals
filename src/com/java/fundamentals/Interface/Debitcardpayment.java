@@ -6,4 +6,8 @@ public class Debitcardpayment {
         System.out.println("Payment done successfully: " + amount);
         return true;
     }
+    @Override
+    public boolean pay(String customerId, double amount) {
+        return false;
+    }
 }
