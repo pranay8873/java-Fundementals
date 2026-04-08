@@ -14,9 +14,6 @@ public abstract class Service{
          this.model=model;
      }
 
-    public Service() {
-
-    }
 
     public abstract void repair();
 

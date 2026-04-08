@@ -13,7 +13,7 @@ public class Volkswagon extends Service{
     public void general(){
         System.out.println("For general service it costs about INR: 15000.00");
     }
-    @Override
+  @Override
     public void repair(){
         System.out.println("for Repair it costs based upon your problem");
         System.out.println("Enter your problem scale from 1-10");
@@ -43,10 +43,17 @@ public class Volkswagon extends Service{
                 System.out.println("Senior mechanic charges INR: 2500.00 + cost of parts");
                 break;
             case 7:
-                System.out.println("Need to buy new parts and meachinery");
-
-
-
+                System.out.println("Need to buy new parts and machinery");
+                break;
+            case 8:
+                System.out.println("need to claim insurance");
+                break;
+            case 9:
+                System.out.println("Insurance only claims metal body damage");
+                break;
+            case 10:
+                System.out.println("need to check for new car....");
+                break;
         }
 
 
