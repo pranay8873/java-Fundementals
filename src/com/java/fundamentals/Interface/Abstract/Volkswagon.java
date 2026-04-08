@@ -42,7 +42,8 @@ public class Volkswagon extends Service{
             case 6:
                 System.out.println("Senior mechanic charges INR: 2500.00 + cost of parts");
                 break;
-            case
+            case 7:
+
 
         }
 
