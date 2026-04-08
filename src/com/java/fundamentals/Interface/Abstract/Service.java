@@ -13,7 +13,12 @@ public abstract class Service{
          this.vehicle=vehicle;
          this.model=model;
      }
-     public abstract void regular();
+
+    public Service() {
+
+    }
+
+    public abstract void repair();
 
      public abstract void general();
 
