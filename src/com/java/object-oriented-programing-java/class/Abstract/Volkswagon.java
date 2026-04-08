@@ -22,6 +22,7 @@ public class Volkswagon extends Service{
         System.out.println("4-6 : engine and wiring issues");
         System.out.println("6-8 : loss or damage of parts");
         System.out.println("8-10 : full crash of car");
+        System.out.println("Enter your choice : ");
         int level=sc.nextInt();
         switch(level){
             case 1:
