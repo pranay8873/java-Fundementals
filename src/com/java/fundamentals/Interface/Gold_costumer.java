@@ -1,6 +1,6 @@
 package com.java.fundamentals.Interface;
 
-public class Gold_costumer extends Costumer {
+public class Gold_costumer extends com.java.fundamentals.Interface.Costumer {
     float Discount=30;
     Gold_costumer(){
         System.out.println("you are a gold costumer");
